@@ -1,0 +1,621 @@
+*{ -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	height: 2000px;	
+  
+}
+
+#header{
+	width:100%;
+	background-image:url(../imgs/slider.png);
+	min-height:640px;
+	position: relative;
+}
+
+
+#top-header{
+	height:30px;
+}
+#nav{
+	height:80px;
+	width:100%;
+	background-color:rgba(66,99,93,.45);
+	position: absolute;
+	top: 30px;
+	left: 0px;
+
+}
+
+#nav img{
+	margin-top:4px;
+}
+#nav .nav{
+	float:right;
+	
+}
+#nav .nav a{
+	font-size:18px;
+	color:#FFF;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+	
+}
+#nav .nav a:hover{
+	
+	color:#fd6b89;
+}
+#nav .nav .dropdown-menu a{
+	color:#42635d;
+}
+#nav .nav .dropdown-menu a:hover{
+		color:#fd6b89;
+}
+#doctorShow{
+	height:530px;
+	padding-top:135px;
+}
+#contentShow{
+	padding-top:170px;
+	
+}
+#contentShow h1{
+	font-size:52px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight:bold;
+	letter-spacing:4px;
+	color:#42635d;
+}
+#contentShow h3{
+	font-size:40px;
+	margin-top:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#42635d;
+	letter-spacing:4px;
+}
+#contentShow div{
+	width:170px;
+	border:4px #4dcdc3 solid;
+	border-radius:15px;
+	height:60px;
+	float:left;
+	text-align:center;
+	margin-top:50px;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+#contentShow div a{
+line-height:42px;
+text-decoration:none;
+color:#fd6b89;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size:20px;
+
+}
+#contentShow div a:hover{
+color:#42635d;
+}
+#top-header{
+	padding-top:3px;
+	
+}
+#top-header span{
+	padding-right:10px;
+	color:#42635d;
+}
+.fa-phone{
+	padding-left:10px;
+	color:#42635d;
+}
+.fa-map-marker-alt{
+	color:#42635d;
+}
+#signIn span{
+	float:right;
+	padding-right:15px;
+}
+#signIn a{
+	padding-left:20px;
+	text-decoration:none;
+   color:#42635d;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:bold;
+  }
+  #signIn a:hover{
+   color:#fd6b89;
+
+}
+.fa-sign-in-alt{
+	
+	color:#42635d;
+	padding-left:3px;
+}
+/**end header*/
+/*skin clinic*/
+/****************************skin **************************/
+#header-skin{
+	width:100%;
+	background:url(../imgs/skin/w2.jpg) no-repeat center center;
+background-size: cover;
+	min-height:640px;
+    z-index: 2
+	
+}
+
+/****************************end skin***************************/
+/* **************************start skin-info**************************/
+
+  #clinic-info{
+    position: relative;
+    min-height: 400px;
+}
+
+.info-l{
+	margin-top: 20px;
+    
+}
+.info-l h2{
+	margin-top :50px;
+	margin-bottom: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4dcdc3;
+    letter-spacing: 2px;
+    font-weight:bold;
+	margin-bottom:40px;
+    text-transform: uppercase;
+}
+.info-l h2 span{
+	color:#42635d;
+	
+	
+}
+.info-l p{
+    
+	color:#42635d;
+	margin: 30px 30px 30px 0px;
+	font-family:Tahoma, Geneva, sans-serif;
+    line-height: 35px;
+    font-size: 16px;
+   
+   
+}
+.info-r{ 
+    margin-top: 30px;
+}
+@media(max-width:767px){
+	#skin-info{
+		height: 550px;
+	}
+	.info-l{
+		text-align: center;
+		margin-bottom: 20px;
+	
+	}
+	.info-l h1{
+		margin-bottom: 30px;
+		font-size: 30px;
+		color:#697785;
+	
+	}
+	.info-l h1 span{
+		
+		border: none;
+		
+	}
+	
+	
+	
+}
+@media (min-width:767px) and (max-width:991px) 
+{
+    .pic .info-r{
+                   margin-top:180px;
+       
+
+
+    }
+    .info-l h1{ margin-top:80px;
+       }
+}
+/*************************end skin-info*****************************/
+/*****************************start skin-services*****************************/
+
+#clinic-servics{
+
+
+	background-color:transparent;
+    min-height: 400px
+}
+.head{
+	margin-top :50px;
+	margin-bottom: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4dcdc3;
+    letter-spacing: 2px;
+    font-weight:bold;
+	margin-bottom:40px;
+    text-transform: uppercase;
+	
+}
+
+ .head span{
+color:#42635d;
+	
+}
+ .color{
+	color:#4dcdc3;
+	margin: 20px 0px;
+}
+
+
+
+
+/************************end skin services***********************/
+/************************start clinic doctors***********************/
+
+
+#clinic-doctors{min-height: 600px;
+	background-color: #eee;
+	padding-top: 30px;
+
+}
+.head{
+	text-align: center;
+	font-weight: 600;
+	padding-bottom:30px;
+	color:#4dcdc3;
+	margin-bottom: 30px;
+	
+}
+ .head span{
+	color: #697785;
+	padding-bottom: 10px;
+}
+
+ #doctors  img{
+	width: 250px;
+	height: 320px;
+	border-radius: 15px;
+	
+  
+	
+	
+	
+}
+ #doctors h3{
+	margin-top :15px;
+	margin-bottom: 15px;
+	color:#697785;
+	
+}
+.contain{
+  position: relative;
+	margin-bottom: 20px;
+    margin-left:50px;
+  
+ 
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 320px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+    border-radius: 15px;
+   
+}
+
+.contain:hover .lay{
+  opacity: .8;
+}
+
+.tex {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+    top: 50%;
+    left: 0px;
+  
+  
+}
+
+.tex ul li{
+    display: inline-block;
+      float:right;
+    margin:0px 10px
+}
+
+
+.details h6{
+    color: #697785
+}
+.details p{
+    color: #697785
+}
+@media(min-width:300px) and (max-width:575px){
+    #serv-eye img
+{
+	margin:auto 0px;
+}
+}
+@media(max-width:767px){
+	.contain{
+			margin-left: 0px;
+   
+
+	}
+ 
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .contain{
+	margin-left: 0px;
+	}
+    
+}
+
+
+
+/****************************end skin doctors**********************/
+                          /*end skin clinic*/
+/*start heart clinic*/
+/********************start heart******************************/
+#header-heart{
+	width:100%;
+    background: url(../imgs/heart/hero-img.jpg) no-repeat center;
+     position: relative;
+    background-size: cover;
+	height:640px;
+
+}
+
+/********************************end heart***************************/
+
+/********************************start heart info ***************************/
+
+#heart-info{
+    min-height:400px;
+
+	margin-top: 20px;
+}
+/********************************end heart info ***************************/
+                               /*end heart clinic*/
+/*optical clinic*/
+#header-eye{
+	width:100%;
+	background:url(../imgs/optical/rrr.jpg) no-repeat center center;
+	height:640px;
+ 	background-size:cover;
+}
+#serv-eye
+{
+   width: 100%;
+   border-top:1px solid #BCBCBC;
+   min-height:500px;
+}
+
+#serv-eye h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4dcdc3;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    TEXT-ALIGN: CENTER;
+}
+
+ #serv-eye  h2 span{
+color:#42635d;
+	
+}
+
+
+
+.servic-opt
+{
+	
+	height:350px;
+   
+	border:1px solid #65BAAD ;
+	border-radius:10px;
+	opacity:0.8;
+    background:#1D1D1D;
+   margin-bottom: 20px;
+
+	
+	
+} 
+
+
+#serv-eye img
+{
+	margin:10px 85px;
+}
+#serv-eye  h3
+
+{
+	 text-align:center;
+     text-transform:capitalize;
+	 font-family:Calibri;
+	 color:#fff
+}
+#serv-eye  p
+{
+   	 text-align:center;
+     color:#fff;
+	 margin-top:30px;
+	 font-size:16px;
+    padding: 0px 10px;
+   
+	 
+}
+/*######################################kids-clinc######################################################################*/
+
+#header-kids{
+	width:100%;
+	background:url(../imgs/kids/childern%20clinc.jpg) no-repeat center ;
+	height:640px;
+ 	background-size:cover;
+	
+          }
+
+/*#################################dentail clicnk ################################################*/
+ #header-dental{
+	width:100%;
+ 	height:640px;
+	background:url(../imgs/dentail/blog-2.jpg) no-repeat center;
+ 	background-size:cover;
+}
+
+/*######################## x-ray clinck ##########################################*/
+
+#header-x-ray
+{
+	width:100%;
+	background: url(../imgs/x-ray/11.jpg) center center fixed;
+	height:640px;
+	background-size:cover;
+}
+
+ #footer{
+	width:100%;
+	background-image:url(../imgs/footer.png);
+	background-size:cover;
+	position:absolute;
+	z-index:2;
+	padding-top:60px;
+}
+#footer h2{
+	color:#fff;
+	text-align:center;
+	font-family:"Lucida Console", Monaco, monospace;
+	letter-spacing:3px;
+	margin-bottom:60px;
+	
+}
+#footer h3{
+	color:#fff;
+	text-align:center;
+	margin-bottom:45px;
+	font-family:"Lucida Console", Monaco, monospace;
+	letter-spacing:2px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4dcdc3;
+    border-color: #4dcdc3;
+}
+.btn-primary:hover {
+    background-color: #fd6b89;
+    border-color: #fd6b89;
+}
+
+.round{
+	color:#fff;
+	font-size:45px;
+	width:80px;
+	height:80px;
+	text-align:center;
+	 background:#4dcdc3;
+	 border-radius:50%;
+	 line-height:70px;
+	 margin-bottom:20px;
+	
+}
+.round:hover{
+	 background: #fd6b89;
+}
+
+#footer-buttons{
+	margin-bottom:80px;
+}
+#icons{
+	
+	margin-bottom:92px;
+	text-align:center;
+}
+#icons .round{
+	
+	margin-left:130px;
+}
+
+#cont{
+	border-bottom:solid 3px #fd6b89;
+}
+
+#icons h5,p{
+	color:#fff;
+	
+}
+.first-icon h5{
+	
+	text-align:center;
+}
+
+.third-icon{
+	text-align:center;
+}
+.third-icon h5{
+	text-align:center;
+	
+}
+
+.footer-phone{
+	color:#fff;
+padding-right:10px;
+}
+#contact-form {
+	display:none;
+}
+#social{
+	text-align:center;
+	height:60px;
+	margin-top:60px;
+}
+#social a{
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+	margin-right:10px;
+}
+#social a:hover{
+	text-decoration:none;
+	color:#fd6b89;
+}
+#contact-form .form-control{
+	margin-bottom:20px;
+}
+navbar-brand {
+	    padding-top: 0; 
+}
+#navbarSupportedContent{
+	margin-left:190px;
+
+}
+
+#navbarSupportedContent li{
+	margin-left:20px;
+}
+.tex ul li a {
+    color:#fff;
+}
+.tex ul li a:hover {
+    color:#4dcdc3;;
+}
